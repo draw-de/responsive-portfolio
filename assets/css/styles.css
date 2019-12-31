@@ -1,0 +1,125 @@
+html, body, head {
+    color: #222222;
+}
+h1 {
+    font-weight: 600;
+}
+/* Header/Navbar */
+a {
+    text-decoration: none!important;
+    color: #95A3B3;
+    text-transform: uppercase;
+}
+a:hover {
+    color: #4B4E6D;
+}
+#name {
+    text-transform: uppercase;
+}
+header {
+    background-color: #222222;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+/* Body */
+body {
+    background-color: #4B4E6D;
+}
+.container {
+    background-color: #ffffff;
+    border: solid 1px #95A3B3;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #222222;
+}
+.cTitle {
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+hr { 
+    background-color: black; 
+    height: 1px; 
+    border: 0; 
+}
+.section {
+    padding: 10px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+}
+#picMe {
+    height: auto;
+    width: 200px;
+}
+/* Footer */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: #222222;
+    color: #95A3B3;
+    text-align: center;
+
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+/* Resets */
+
+.reset {
+    background-color: #222222;
+    border: none;
+    color: #95A3B3;
+}
+
+/* Forms/Contact */
+input[type=text], select, textarea {
+    border: 1px solid #32292F; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+
+    margin-top: 6px; 
+    margin-bottom: 16px;     
+    width: 100%; 
+    padding: 12px; 
+
+    resize: vertical 
+}
+  
+input[type=submit] {
+    color: white;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    color: white;
+}
+
+/* Cards/Button/Portfolio */
+
+.btn {
+    background-color: #4B4E6D;
+    border-color: #4B4E6D;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(102, 103, 114);
+    border-color: #4B4E6D;
+}
+.card {
+    border-color: #4B4E6D;
+}
+.card-body {
+    background: #222222;
+    color: white;
+}
+
+.cards {
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
