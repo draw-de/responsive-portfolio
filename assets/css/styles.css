@@ -116,6 +116,7 @@ input[type=submit]:hover {
 }
 .card {
     border-color: #4B4E6D;
+    width: 18rem;
 }
 .card-body {
     background: #222222;

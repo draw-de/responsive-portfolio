@@ -1,95 +1,101 @@
-@media only screen and (width: 1366px) {
-    h1 {
-        font-size: 55px;
-    }
-    .abtMe {
-        padding-top: 10px;
-    }
-    /* Header/Navbar */
-    a {
-        font-size: 20px;
-    }
+@media only screen and (max-width: 1025px) and (max-width: 1366px) {
+  h1 {
+    font-size: 40px;
+  }
+  .abtMe {
+    padding-top: 10px;
+  }
+  /* Header/Navbar */
+  a {
+    font-size: 40px;
+  }
 
-    /* Cards/Portfolio */
-    .cards {
-        margin-left: -20px;
-        padding-right: 100px;
-    }
+  /* Cards/Portfolio */
+  .card {
+    margin-left: 60px;
+    width: 50rem;
+  }
 
-    /* Footer */
-    footer {
-        font-size: 25px;
-    }
+  /* Footer */
+  footer {
+    font-size: 25px;
+  }
 }
-@media only screen and (width: 1024px) {
-    h1 {
-        font-size: 40px;
-    }
-    /* Header/Navbar */
-    a {
-        font-size: 15px;
-    }
+@media only screen and (max-width: 824px) and (max-width: 1024px) {
+  h1 {
+    font-size: 35px;
+  }
+  /* Header/Navbar */
+  a {
+    font-size: 15px;
+  }
 
-    /* Cards/Portfolio */
-    .cards {
-        padding-bottom: 50px;
-    }
-    
-    /* Footer */
-    footer {
-        font-size: 20px;
-    }
+  /* Cards/Portfolio */
+  .cards {
+    padding-bottom: 50px;
+  }
+  .card {
+    margin-left: 25px;
+    width: 40rem;
+  }
+
+  /* Footer */
+  footer {
+    font-size: 20px;
+  }
 }
-@media only screen and (width: 812px) {
-    .abtMe {
-        padding-top: 10px;
-    }
-    /* Header/Navbar */
-    a {
-        font-size: 20px;
-    }
+@media screen and (max-width: 737px) and (max-width: 823px) {
+  .abtMe {
+    padding-top: 10px;
+  }
+  /* Header/Navbar */
+  a {
+    font-size: 20px;
+  }
 
-    /* Cards/Portfolio */
-    .cards {
-        margin-left: 20px;
-    }
-    .btn {
-        margin-bottom: 20px;
-    }
+  /* Cards/Portfolio */
+  html > .card {
+    margin-left: 25px;
+    width: 23rem;
+  }
+  .btn {
+    margin-bottom: 20px;
+  }
 }
-@media only screen and (width: 736px) {
-    /* Header/Navbar */
-    a {
-        font-size: 20px;
-    }
+@media screen and (max-width: 668px) and (max-width: 736px) {
+  /* Header/Navbar */
+  a {
+    font-size: 20px;
+  }
 
-    /* Cards/Portfolio */
-    .cards {
-        margin-left: 40px;
-    }
+  /* Cards/Portfolio */
+  .cards {
+    margin-left: 40px;
+  }
 }
-@media only screen and (width: 667px) {
-    /* Header/Navbar */
-    a {
-        font-size: 20px;
-    }
+@media screen and (max-width: 640px) and (max-width: 667px) {
+  /* Header/Navbar */
+  a {
+    font-size: 20px;
+  }
 
-    /* Cards/Portfolio */
-    .cards {
-        margin-left: 50px;
-    }
+  /* Cards/Portfolio */
+  div > .card {
+    width: 22rem;
+  }
 }
-@media only screen and (max-width: 568px) {
-    /* Header/Navbar */
-    a {
-        font-size: 20px;
-    }
+@media screen and (max-width: 568px) and (max-width: 639px) {
+  /* Header/Navbar */
+  a {
+    font-size: 20px;
+  }
 
-    /* Cards/Portfolio */
-    .cards {
-        margin-left: 0px;
-    }
-    .section {
-        padding-bottom: 40px;
-    }
+  /* Cards/Portfolio */
+  div > .card {
+    margin-left: -34px;
+    width: 16rem;
+  }
+  .section {
+    padding-bottom: 45px;
+  }
 }
