@@ -73,6 +73,20 @@ footer {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
+.footer {
+  position: absolute;
+  padding-right: 0px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: #222222;
+  color: #95a3b3;
+  text-align: center;
+
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
 
 /* Resets */
 
